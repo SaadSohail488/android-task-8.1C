@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context=".YoutubeActivity">
+
+    <!-- Text "YouTube URL" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YouTube URL"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- EditText for YouTube URL -->
+    <EditText
+        android:id="@+id/editTextYouTubeUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter YouTube URL" />
+
+    <!-- Button "PLAY" -->
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY" />
+
+    <!-- Button "ADD TO PLAYLIST" -->
+    <Button
+        android:id="@+id/buttonAddToPlaylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD TO PLAYLIST" />
+
+    <!-- Button "MY PLAYLIST" -->
+    <Button
+        android:id="@+id/buttonMyPlaylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MY PLAYLIST" />
+
+</LinearLayout>
